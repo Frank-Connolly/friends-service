@@ -12,7 +12,7 @@
 	<artifactId>friends</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>friends</name>
-	<description>Simple learning app for REST app</description>
+	<description>Simple learning app for REST API</description>
 
 	<properties>
 		<java.version>11</java.version>

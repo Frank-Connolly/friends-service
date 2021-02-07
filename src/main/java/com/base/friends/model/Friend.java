@@ -15,10 +15,10 @@ public class Friend {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-    @JsonProperty("first-name")
+    @JsonProperty(value = "first-name", required = true)
     private String firstName;
 
-    @JsonProperty("last-name")
+    @JsonProperty(value = "last-name", required = true)
     private String lastName;
 
     int age;
